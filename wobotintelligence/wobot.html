@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  
+
+
+<style>
+
+.body{
+  color: #000000;
+}
+
+input[type=text], select {
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+ display: inline-block;
+  border: 1px solid rgb(236, 7, 7);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+   width: 40%; 
+  background-color: #ff5004;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #ff0000;
+}
+
+div {
+  overflow-x:hidden;
+
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  width:20% ;
+  border-radius: 25px;
+  border-color: #00c8ff;
+  border-style: solid;
+  background-color: #fffdfd;
+  padding: 80px;
+  text-align: center; 
+  margin-top: 8%;
+  margin-left: 38%;
+
+  
+}
+.btn {
+  margin-top: 5px;
+  border: none;
+  background-color: inherit;
+  background-color: rgb(227, 227, 227);
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: rgb(255, 0, 0);}
+
+.success {color: black}
+.info {color: black}
+.warning {color: black;}
+.danger {color: black;}
+.default {color: black;}
+h3{
+  color: #000000;
+}
+body{
+  /* background-image: image('food.jpg'); */
+   background-image: url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?t=st=1657689775~exp=1657690375~hmac=8a320353c13443283cdd3bba8bf1bdf3badc9a8b776ddc66c50f320998378d97&w=1380"); 
+}
+</style>
+<body>
+<div>
+  <img src="https://img.freepik.com/free-psd/metal-sign-logo-mockup_1389-1345.jpg?t=st=1657688758~exp=1657689358~hmac=266a33b06d68eb401b02d4e2b3f44ed0e113a74516d8476e8a7123cf774fe6c4&w=1380" ,
+  alt="Girl in a jacket" width="100" height="100">
+  <h3>It's a Delight to have you onboard</h3>
+
+<h5>Helps us to know you better
+  <p>
+   (This is how we optimize Wobot as per your bussiness needs.)
+  </p>
+</h5>
+  <form action="#",id= "form">
+    <label for="company">Company Name :</label><br>
+    <input type="text" id="cname" name="cname" placeholder="Ex.eg"><br>
+
+    <label for="Industry">Your Industry : </label><br>
+    <select id="industry" name="industry">
+      <option value="Automobile">Automobile</option>
+      <option value="Ecommerce">Ecommerce</option>
+    </select><br>
+ 
+    <label for="Company size">Company size: </label><br>
+    <button class="btn success">1-20</button>
+    <button class="btn info">21-50</button>
+    <button class="btn warning">51-100</button>
+    <button class="btn danger">101-499</button>
+
+
+    <input type="submit" id="button",value="Get Started"><br>
+  </form>
+</div>
+</body>
+</html>
