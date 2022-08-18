@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  top: 50%;
+  left: 50%;
+  position: relative;
+  color: blue;
+  background: aqua;
+  padding-bottom: 20px;
+}
+h1{
+  text-align: center;
+}
+.keypad{
+ color: aqua;
+
+}
+button{
+  font-size: 30px;
+  color: blueviolet;
+  margin-right: 10px;
+  margin-top: 5px;
+}
