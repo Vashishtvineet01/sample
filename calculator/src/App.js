@@ -37,45 +37,16 @@ import './App.css';
     let currentNumber = parseFloat(current);
     if (isNaN(previousNumber) || isNaN(currentNumber)) return;
     switch (operations) {
-      case "÷":
-        result = previousNumber / currentNumber;
-        break;
-      case "x":
-        result = previousNumber * currentNumber;
-        break;
+      
       case "+":
         result = previousNumber + currentNumber;
         break;
-      case "-":
-        result = previousNumber - currentNumber;
-        break;
+
       default:
         return;
     }
     return result;
-  };
-
-     
-    // const equalizer = () => {
-    //   let value = compute();
-    //   if (value === undefined || value == null) return;
-    //   setCurrent(value);
-    //   setPrevoius("");
-    //   setOperations("");
-    // };
-    // const compute = () => {
-    //   let result;
-    //   let previousNumber = parseFloat(prevoius);
-    //   let currentNumber = parseFloat(current);
-    //   if (isNaN(previousNumber) || isNaN(currentNumber)) return;
-    //   switch (operations) {
-    //     case "+":
-    //       result = previousNumber + currentNumber;
-    //       break;
-    //   }
-    //   return result;
-    // };  
-    
+  };    
   
   //==
 
