@@ -20,9 +20,17 @@ import './App.css';
 
     //==
 
-   const results = () => {
-     setResult(eval(result).toString());
-   }
+    const results = () => {
+      setResult(eval(result).toString());
+    }
+
+//   function anonymous() {
+//     // return 2+4
+// }
+
+//    let userInput = "2+4";
+//    let result = Function("return " + userInput)(); // which is same as "return 2+4"
+// console.log(result)
 
   return ( 
     <>
@@ -34,7 +42,7 @@ import './App.css';
           <div className='keypad'>
             <button onClick={clear} id="clear"> Clear </button> 
             <button onClick={backspace} id= "backspace"> C </button>
-            <button onClick={results}> = </button>
+            <button onClick={functions}> = </button>
             <button name = '+' onClick={handleClick}> + </button>
             <button name = '*' onClick= {handleClick} > * </button>
             {numbers.map(item => < button  key={item} name= {item} onClick= {handleClick} > {item} </button> )}
