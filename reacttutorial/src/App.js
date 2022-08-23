@@ -16,7 +16,10 @@ import './App.css';
     //     setNum(num -1);
     //   }
     // }
-   
+
+    // operations is parameter we are passing with agument name increment we are using === 
+    //  is a operator to check datatype
+
       const incrementNum = (operation) => {
         if(operation === "increment"){
           setNum(num+1);
@@ -34,6 +37,7 @@ import './App.css';
         <div className='btn_div'>
         <button onClick={() => incrementNum("increment")}> Increment </button>
         <button onClick={() => incrementNum("decrement")} > Decrement </button>
+
         
         {/* <button onClick={incrementNum}> Decrement </button>   */}
        </div>
