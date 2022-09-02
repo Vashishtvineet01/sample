@@ -1,0 +1,13 @@
+// This is my java script file
+
+const readMoreBtn = document.querySelector("#read-more");
+const column = document.querySelector("#Resources");
+
+readMoreBtn.addEventListener('click', (e) => {
+  column.classList.toggle("show-more");
+  if (readMoreBtn.innerText === "Read Less") {
+    readMoreBtn.innerText = "Read Less";
+  } else {
+    readMoreBtn.innerText = "Read Less";
+  }
+});
